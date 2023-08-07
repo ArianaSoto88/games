@@ -1,0 +1,99 @@
+<html>
+<head>
+  <title>Juegos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: black;
+      background-image: url(./Memorama/img/alien-pointing-bg.png);
+      background-repeat: no-repeat;
+    }
+    .container {
+      margin-top: 50px;
+      position:fixed;
+      top:40px;
+      left:830px;
+    }
+    h1 {
+      margin-bottom: 80px;
+      color:white;
+    }
+
+    a {
+      display:block;
+      font-size: 25px;
+      text-decoration: none;
+      color:rgb(13, 204, 29);
+      font-weight: bold;
+      align-items: center;
+      margin: 10px;
+      text-decoration: none;
+    }
+
+    a:link { 
+      text-decoration: none; 
+      color: rgb(13, 204, 29);
+    }
+
+
+    a:visited { 
+      text-decoration: none;
+      color: rgb(13, 204, 29);
+    }
+
+
+    a:hover { 
+      text-decoration: none; 
+      color: rgb(13, 204, 29);
+    }
+
+
+    a:active { 
+      text-decoration: none; 
+      color: rgb(13, 204, 29);
+    }
+
+    .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+
+      /* Position the tooltip */
+      position: absolute;
+      z-index: 1;
+      font-size: 12px;
+      text-decoration: none;
+      background-color: #61616b;
+    }
+
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+    }
+    .back {
+      font-size: 70px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Elige un juego:</h1>
+    <a class="tooltip" alt="ahorcado" href="ahorcado/horcado.html">El ahorcado
+      <span class="tooltiptext">Clic para ir a El ahorcado</span>
+    </a>
+    <a class="tooltip" href="Memorama/memorama.html">Memorama
+      <span class="tooltiptext">Clic para ir a Memorama</span>
+    </a>
+    <a class="tooltip" href="piedrapapelotijerajs/">Piedra, Papel o Tijera
+      <span class="tooltiptext">Clic para ir a Piedra, Papel o Tijera</span>
+    </a>
+    <a class="tooltip" href="tic-tac/Tic_tac_toe.html">Tic Tac Toe
+      <span class="tooltiptext">Clic para ir a Tic Tac Toe</span>
+    </a>
+  </div>
+
+</body>
+</html>

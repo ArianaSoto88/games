@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="contenedorEleccion">
+        <h1>Piedra Papel o Tijera</h1>
+        <h3>¿Cuantas rondas quieres jugar?</h3>
+        <div id="input">
+            <input type="number" id="rondas">
+        </div>
+        <div id="jugadores">
+            <h3>¿contra quien quieres jugar?</h3>
+            <button onclick="jugador(0)">Robot</button>
+            <button onclick="jugador(1)">jugador 2</button>
+        </div>
+    </div>
+    <div id="contenedor">
+        <h1>Piedra Papel o Tijera</h1>
+        <div id="juego">
+            <div>
+                <h2>jugador 1: <input id="puntuacion1" disabled type="number"></h2>
+                <div id="botones1">
+                <button onclick="eleccion1(0)">
+                <img src="img/rock.svg" alt="">
+                </button>
+                <button onclick="eleccion1(1)">
+                    <img src="img/paper.svg" alt="">
+                </button>
+                <button onclick="eleccion1(2)">
+                    <img src="img/scissors.svg" alt="">
+                </button>
+                </div>
+                <div >
+                    <img id="respuesta1" src="img/rock.svg" alt="">
+                </div>
+            </div>
+            <div id="salida">
+                vs
+            </div>
+            <div >
+                <h2 id="segundo jugador">jugador 2: <input id="puntuacion2" disabled type="text"></h2>
+                <div id="botones2">
+                <button onclick="eleccion2(0)">
+                <img src="img/rock.svg" alt="">
+                </button>
+                <button onclick="eleccion2(1)">
+                    <img src="img/paper.svg" alt="">
+                </button>
+                <button onclick="eleccion2(2)">
+                    <img src="img/scissors.svg" alt="">
+                </button>
+                </div>
+                <div >
+                    <img id="respuesta2" src="img/rock.svg" alt="">
+                </div>
+                
+            </div>
+            <div>
+                <button id="calcular" onclick="calcular()">calcular</button>
+                <button id="reiniciar" onclick="reiniciar()">reiniciar</button>
+            </div>
+
+        </div>
+        
+    </div>
+
+    <script src="action.js"></script>
+</body>
+</html>

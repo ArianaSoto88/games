@@ -1,0 +1,143 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.game-board {
+  display: grid;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  flex-direction: row;
+  text-align: center;
+}
+
+.card {
+  width: 150px;
+  height: 150px;
+  background-color: #590226;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 10%;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.matched {
+  visibility: hidden;
+}
+
+#restartButton {
+  visibility: hidden;
+}
+
+.title_history {
+  color:aqua;
+}
+
+body {
+  font-size: 20px;
+}
+
+p{
+  color:blue;
+  text-align:justify;
+}
+
+.title1 {
+  background: -webkit-linear-gradient(#f68d50, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family:'Courier New', monospace;
+  font-size: 72px;
+}
+
+.scores {
+  font-family:'Courier New', monospace;
+  font-weight: bold;
+  color:#000000;
+  font-size: 30px;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  color: black;
+  padding: 5px 10px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 70px;
+  border-radius: 10%;
+  margin-top: 50px;
+}
+
+.button-restart {
+  background-color:transparent;
+  border: none;
+  padding: 5px 10px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  border-radius: 10%;
+}
+
+#menu {
+  grid-template-columns: repeat(1, 1fr);
+  color:black;
+  display: grid;
+  flex-wrap: wrap;
+  background-color: transparent;
+  flex-direction: row;
+  text-align: right;
+  font-family:'Courier New', monospace;
+  margin-top: 20px;
+}
+
+a {
+  display: flex;
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-left: 5%;
+}
+
+a:link { 
+  text-decoration: none; 
+  color: black;
+}
+
+
+a:visited { 
+  text-decoration: none;
+  color: black;
+}
+
+
+a:hover { 
+  text-decoration: none; 
+  color: black;
+}
+
+
+a:active { 
+  text-decoration: none; 
+  color: black;
+}
+
+.text {
+  margin-left: 5%;
+  margin-right: 10%;
+}
+
+.back {
+  font-size: 50px;
+}

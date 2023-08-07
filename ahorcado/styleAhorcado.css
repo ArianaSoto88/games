@@ -1,0 +1,68 @@
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-width: 350px;
+    background-image: url("https://live.staticflickr.com/2713/4365515062_1b931c257e_b.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    text-align: center;
+
+}h1 {
+    width: 350px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 3px 3px 4px black;
+    top: 15;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding: 5px;
+    position: center;
+}
+
+h2 {
+    width: 400px;
+    text-shadow: 2px 3px 3px black;
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+}
+#instrucciones {
+    width: 500px;
+    color: black;
+    font-size: 17px;;
+    margin: auto;
+    margin-top: 16px;
+    text-align: center;
+    margin-bottom: 16px;
+   
+}
+#boton-iniciar-juego{
+    border-radius: 3px;
+    background-color: #ecf1f1;
+    height: 25px;
+    width: 100px;
+
+}
+#boton-agregar-palabra{
+    border-radius: 6px;
+    margin-top: 13px;
+    width: 125px;
+    background-color: #e8eaf1;
+}
+#boton-agregar-definicion{
+    border-radius: 6px;
+    margin-top: 13px;
+    width: 125px;
+    background-color: #e8eaf1;
+}
+.back {
+    font-size: 50px;
+    text-decoration: none;
+}
