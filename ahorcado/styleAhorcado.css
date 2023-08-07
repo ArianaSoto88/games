@@ -66,3 +66,35 @@ h2 {
     font-size: 50px;
     text-decoration: none;
 }
+a {
+    display: flex;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 5%;
+  }
+  
+  a:link { 
+    text-decoration: none; 
+    color: black;
+  }
+  
+  
+  a:visited { 
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  a:hover { 
+    text-decoration: none; 
+    color: black;
+  }
+  
+  
+  a:active { 
+    text-decoration: none; 
+    color: black;
+  }
+  
