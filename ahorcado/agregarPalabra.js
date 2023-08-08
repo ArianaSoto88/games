@@ -78,7 +78,7 @@ function agregarPalabra(entrada, listaDepalabras) {
 
         // Agrega la definición de la palabra al objeto palabrasConDefinicion
         palabrasConDefinicion[palabra] = prompt(
-          "Ingresa la definición de la palabra: " + palabra
+          "Ingresa la pista de la palabra: " + palabra
         );
       }
     });
